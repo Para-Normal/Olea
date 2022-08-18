@@ -1,0 +1,417 @@
+body{
+    color: rgba(255, 255, 255, 1);
+    font-size: Libre Baskerville;
+}
+
+#image{
+   width: 125px;
+   height: auto;
+   margin-left: 3rem;
+}
+
+#lia{
+    color: rgb(124, 124, 128);
+    font-family: Libre Baskerville;
+    font-weight: 100;
+    font-size: 23px;
+    margin-right: 3rem;
+}
+
+#lia:hover{
+    color: rgba(123, 90, 9, 0.76);
+}
+
+#bttn{
+    color: rgba(49, 49, 57, 1) !important;
+    border: none;
+}
+
+#bttn i{
+    border: none;
+    padding-left: 1rem;
+    color: rgba(49, 49, 57, 1);
+}
+
+#cont-f{
+    margin-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#para{
+    margin-top: 1rem;
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 100;
+    color: rgb(124, 124, 128);
+}
+
+#cont{
+    width: 48%;
+    padding-bottom: 2rem;
+}
+
+#cont a{
+    margin-left: 5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(124, 124, 128);
+    font-size: 13px;
+    font-family: Poppins;
+}
+#cont a:hover{
+    color: rgba(123, 90, 9, 0.76);
+}
+
+#img-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+#img-cont img{
+    width: 25%;
+}
+
+#img-cont img:first-child{
+    margin-left: 8rem;
+}
+#img-cont img:last-child{
+    margin-right: 3rem;
+}
+
+#copy{
+    font-size: 12px;
+    font-family: Poppins;
+    color: rgb(124, 124, 128);
+}
+
+#hspan a{
+    color: rgb(124, 124, 128);
+}
+
+#hspan span a{
+    margin-left: 2rem;
+    color: rgb(124, 124, 128);;
+}
+
+.footer{
+    margin-top: 5rem !important;
+    padding-bottom: 1rem;
+}
+
+#card-cont span i{
+    color: rgba(123, 90, 9, 1);
+    font-size: 3rem;
+}
+
+#card-cont span{
+    padding-left: 1.2rem;
+}
+
+#card-cont .card-title{
+    color: rgb(75, 75, 79);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Libre Baskerville;
+}
+
+#card-cont .card-text{
+    font-size: Poppins;
+    font-size: 13px;
+    color: rgb(124, 124, 128);
+}
+#tb-cont{
+    background-color: rgba(123, 90, 9, 0.07);
+    margin-top: 7rem;
+    padding: 4rem !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tb-cont .row{
+    width: 85%;
+    display: inline-flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10.7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#tb-cont .row .col p{
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 100;
+    color: rgb(124, 124, 128);
+}
+
+#tb-cont .row .col h2{
+    font-family: Libre Baskerville;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(75, 75, 79);
+}
+
+#idea{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+#idea h2{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-family: Libre Baskerville;
+    padding-bottom: 2rem;
+}
+
+#idea button{
+    margin-top: 3rem;
+    border: solid 1px rgb(124, 124, 128);
+    background-color: transparent;
+}
+
+#idea button a{
+    text-decoration: none;
+    color: rgb(124, 124, 128);
+    font-family: Poppins;
+    font-size: 13px;
+    padding: 1rem;
+}
+
+#Work{
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(123, 90, 9, 0.07);
+    /* padding: 10rem; */
+    border-left:1px solid rgb(124, 124, 128);
+    
+}
+
+#client-cont{
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#imgclient-cont{
+    width: 94%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.2rem;
+}
+
+#contact{
+    background-color: rgba(123, 90, 9, 0.07);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 4rem;
+}
+
+#loc{
+    width: 45%;
+}
+
+
+.verticalLine {
+    height: 281px;
+    border-right: 1px solid rgba(49, 49, 57, 0.2);
+    /* right: 30%; */
+    /* margin-right: 3rem; */
+}
+
+#form{
+    width: 45%;
+    text-align: start;
+    padding-bottom: 1rem;
+}
+
+#contact #loc h4{
+    font-family: Libre Baskerville;
+    color: rgba(49, 49, 57, 1);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#contact #loc span{
+    font-family: Poppins;
+    font-size: 15px;
+    color: rgba(49, 49, 57, 0.6);
+    display: inline-flex;
+    padding-bottom: 2rem;
+}
+
+#form form label{
+    color: rgba(49, 49, 57, 1);
+    font-family:Libre Baskerville;
+    font-size: 14px;
+}
+
+#form form input{
+    background-color: transparent;
+}
+
+#texta textarea{
+    background: transparent;
+}
+
+#texta button{
+    background-color:rgb(87, 62, 0);
+    margin-top: 1rem;
+    padding-top: 0.5rem!important;
+    padding-left:2rem;
+    padding-right: 2rem ;
+    padding-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+#pshoot{
+    width: 53%;
+    text-align: start;
+    padding-bottom: 1rem;
+}
+
+#shot{
+    width: 50%;
+}
+
+#pcontact{
+    background-color: rgba(123, 90, 9, 0.07);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 4rem;
+}
+
+#pshoot #photo img{
+    padding-bottom: 0.5rem;
+}
+
+#photo-cont{
+    background-color: rgba(123, 90, 9, 0.07);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 4rem;
+}
+
+#sub-cont{
+    width: 47%;
+    padding-top: 10rem;
+}
+
+#photo-cont #sub-cont h4{
+    font-family: Libre Baskerville;
+    color: rgba(49, 49, 57, 1);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 8rem;
+    padding-top: 3rem;
+}
+
+#photo-cont #sub-cont span{
+    width: 100%;
+    font-family: Poppins;
+    font-size: 15px;
+    color: rgba(49, 49, 57, 0.6);
+    display: inline-flex;
+    padding-bottom: 2rem;
+    text-align: start;
+    padding-left: 8rem;
+}
+
+#photo-cont #sub-cont img{
+    padding-top: 15rem;
+}
+
+#photo-cont #sub-cont h3{
+    font-family: Libre Baskerville;
+    color: rgba(49, 49, 57, 1);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 8rem;
+    padding-top: 3rem;
+}
+
+#icons{
+    width: 77%;
+    padding-top: 4rem;
+    display: flex;
+    text-align: start;
+    padding-left: 3rem;
+}
+
+#sub-cont #icons span{
+    width: 10%;
+    padding-left: 0rem;
+    text-align: start;
+}
+
+#sub-cont #icons span i{
+    background: transparent;
+    padding-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+#sub-cont #icons span i>:first-child{
+    padding-left: 3rem;
+}
+
+#Next .container span{
+   display: inline-flex;
+   justify-content: space-between !important;
+} 
+
+#nbutn{
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+}
+
+#nbutn button{
+    background-color: transparent;
+    color: rgb(75, 75, 79);
+    border: none;
+}
+
+#nbutn a{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 2rem;
+    color: rgb(124, 124, 128);
+    font-family: Poppins;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+}
+
+#Next #foot span a{
+    text-decoration: none;
+    color: rgb(124, 124, 128);
+    font-family: Poppins;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+}
+
